@@ -1,0 +1,143 @@
+/* A LOT needs changing. CSS and HTML is messy. */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #181a1b;
+}
+
+#main-container {
+    border: 1px solid #908d6d;
+    margin: 0px auto;
+    margin-top: 20px;
+    width: 850px;
+    height: 1000px;
+    font-size: 19px;
+}
+
+#main-container ul {
+    text-align: center;
+}
+
+
+.top-row li {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #908d6d;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+
+.top-row a {
+    text-decoration: none;
+    color: #908d6d;
+}
+
+.top-row a:hover {
+    text-decoration: none;
+    color: #b8b69f;
+}
+
+.portrait {
+    width: 200px;
+    float: right;
+    margin: 30px 30px 0px 0px;
+    border: 1px solid #908d6d;
+    padding: 2px;
+}
+
+#about-me {
+    margin: 30px;
+}
+
+#about-me h1 {
+    color: #908d6d;
+}
+
+#about-me p {
+    color: #908d6d;
+}
+
+#about-me a:hover {
+    color: #b8b69f;
+}
+
+#about-me a {
+    color: #908d6d;
+    text-decoration: none;
+}
+
+#the-end {
+    color: #908d6d;
+    margin: 30px;
+    text-align: center;
+}
+
+/* #the-end a {
+    color: #908d6d;
+    text-decoration: none;
+}
+
+#the-end a:hover {
+    color: #b8b69f;
+} */
+
+.code-block {
+    border: 1px solid #908d6d;
+    width: 550px;
+    height: 150px;
+    margin: 10px 0px 10px 0px;
+    background-color: #1d1f20;
+    display: inline-block;
+    padding: 15px;
+}
+
+.code-block p {
+    margin-left: 5px;
+}
+
+.skill-section {
+    border: 1px solid #908d6d;
+    height: 240px;
+}
+
+.programming-skills {
+    float: left;
+    margin: 30px;
+}
+
+.programming-skills p {
+    padding-bottom: 3px;
+    border-bottom: 1px solid #908d6d;
+}
+
+.programming-skills li {
+    color: #908d6d;
+    list-style: none;
+}
+
+.skill-section-about {
+    margin-top: 30px;
+}
+
+
+.skill-section-about a {
+    text-decoration: none;
+    color: #908d6d;
+}
+
+.skill-section-about a:hover {
+    color: #b8b69f;
+}
+
+.work-in-progress {
+    text-align: center;
+    color: #908d6d;
+    position: relative;
+    top: 450px;
+}
