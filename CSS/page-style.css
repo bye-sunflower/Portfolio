@@ -56,6 +56,10 @@ body {
     height: 800px;
 }
 
+.content-box:last-child {
+    margin-bottom: 20px;
+}
+
 .content-description h1 {
     text-align: center;
     color: #908d6d;
@@ -70,7 +74,7 @@ body {
     margin: 0px 25px 0px 25px;
 }
 
-.ccna-certificate-image {
+.certificate-image {
     width: 420px;
     border: 1px solid #908d6d;
     padding: 2px;
@@ -78,5 +82,14 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
+}
 
+.certificate-image {
+    width: 420px;
+    border: 1px solid #908d6d;
+    padding: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px; 
 }
