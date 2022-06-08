@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #181a1b;
+}
+
+#main-container {
+    border: 1px solid #908d6d;
+    margin: 0px auto;
+    margin-top: 20px;
+    width: 850px;
+    height: 1000px;
+    font-size: 19px;
+}
+
+.work-in-progress {
+    text-align: center;
+    color: #908d6d;
+    position: relative;
+    top: 450px;
+}
