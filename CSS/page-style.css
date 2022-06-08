@@ -16,6 +16,29 @@ body {
     width: 850px;
     height: 1000px;
     font-size: 19px;
+    overflow: scroll;
+}
+
+#main-container ul {
+    text-align: center;
+}
+
+.top-row li {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #908d6d;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+
+.top-row a {
+    text-decoration: none;
+    color: #908d6d;
+}
+
+.top-row a:hover {
+    text-decoration: none;
+    color: #b8b69f;
 }
 
 .work-in-progress {
@@ -23,4 +46,37 @@ body {
     color: #908d6d;
     position: relative;
     top: 450px;
+}
+
+.content-box {
+    border: 1px solid #908d6d;
+    margin: 0px auto;
+    margin-top: 20px;
+    width: 700px;
+    height: 800px;
+}
+
+.content-description h1 {
+    text-align: center;
+    color: #908d6d;
+}
+
+.content-description {
+    /* text-align: center; */
+    color: #908d6d;
+}
+
+.content-description p {
+    margin: 0px 25px 0px 25px;
+}
+
+.ccna-certificate-image {
+    width: 420px;
+    border: 1px solid #908d6d;
+    padding: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+
 }
